@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sensai - One-Page Summary</title>
+  <style>
+    :root {
+      --bg: #f6f7f3;
+      --card: #ffffff;
+      --ink: #17212b;
+      --muted: #4a5a68;
+      --brand: #0b5f71;
+      --accent: #d67c2f;
+      --line: #dde3e8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 85% 0%, #dceaf0 0, transparent 38%),
+        radial-gradient(circle at 0% 100%, #f4e5d8 0, transparent 35%),
+        var(--bg);
+    }
+    .wrap {
+      max-width: 1040px;
+      margin: 24px auto;
+      padding: 0 16px 24px;
+    }
+    .hero {
+      background: linear-gradient(110deg, #0b5f71, #184e63);
+      color: #fff;
+      border-radius: 16px;
+      padding: 28px;
+      box-shadow: 0 10px 26px rgba(0, 0, 0, 0.12);
+    }
+    .hero h1 { margin: 0 0 8px; font-size: 34px; }
+    .hero p { margin: 0; font-size: 18px; line-height: 1.4; opacity: 0.95; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 14px;
+      margin-top: 14px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 16px;
+    }
+    .span-8 { grid-column: span 8; }
+    .span-4 { grid-column: span 4; }
+    .span-12 { grid-column: span 12; }
+    h2 {
+      margin: 0 0 10px;
+      font-size: 18px;
+      color: var(--brand);
+    }
+    ul {
+      margin: 8px 0 0 18px;
+      padding: 0;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    .kpi {
+      display: inline-block;
+      border: 1px solid #c9d7e0;
+      border-radius: 999px;
+      padding: 6px 10px;
+      margin: 4px 6px 0 0;
+      font-size: 13px;
+      color: #1f3f54;
+      background: #f7fbfe;
+    }
+    .cta {
+      border-left: 6px solid var(--accent);
+      background: #fffaf5;
+    }
+    .meta {
+      margin-top: 10px;
+      color: #6a7782;
+      font-size: 13px;
+    }
+    @media (max-width: 860px) {
+      .span-8, .span-4, .span-12 { grid-column: span 12; }
+      .hero h1 { font-size: 28px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <h1>Sensai</h1>
+      <p>AI-powered market and competitor intelligence for faster commercial decisions.</p>
+    </section>
+
+    <section class="grid">
+      <article class="card span-8">
+        <h2>What We Do</h2>
+        <ul>
+          <li>Turn fragmented public data into decision-ready insights.</li>
+          <li>Combine AI speed with analyst interpretation.</li>
+          <li>Deliver clear "so what" recommendations tied to business outcomes.</li>
+        </ul>
+      </article>
+      <article class="card span-4">
+        <h2>Commercial Model</h2>
+        <ul>
+          <li>Insight Sprint (2-4 weeks)</li>
+          <li>Always-On Intelligence (subscription)</li>
+          <li>Strategic Partner (premium)</li>
+        </ul>
+      </article>
+
+      <article class="card span-12">
+        <h2>Example Use Cases</h2>
+        <ul>
+          <li>Competitor price scraping to inform price optimization and margin protection.</li>
+          <li>Website and profile reviews to improve engagement and conversion.</li>
+          <li>Automated competitor/regulatory monitoring with actionable implications.</li>
+          <li>Purchase journey audits, image quality checks, feature/proposition tracking, and social review insight automation.</li>
+        </ul>
+      </article>
+
+      <article class="card span-8">
+        <h2>Why Sensai</h2>
+        <span class="kpi">Actionable, not descriptive</span>
+        <span class="kpi">Faster insight cycles</span>
+        <span class="kpi">Lower research cost</span>
+        <span class="kpi">Executive-ready outputs</span>
+      </article>
+      <article class="card span-4">
+        <h2>Direct Competitors</h2>
+        <ul>
+          <li>Inference Group</li>
+          <li>Similarweb</li>
+          <li>Crayon</li>
+          <li>Klue</li>
+          <li>Brand24</li>
+        </ul>
+      </article>
+
+      <article class="card span-12 cta">
+        <h2>Call To Action</h2>
+        <ul>
+          <li>Start with a focused Insight Sprint on your highest-priority commercial question.</li>
+          <li>Get decision-ready evidence, implications, and recommended actions in weeks.</li>
+        </ul>
+      </article>
+    </section>
+
+    <p class="meta">Prepared for business development use. Version date: March 1, 2026.</p>
+  </main>
+</body>
+</html>
+

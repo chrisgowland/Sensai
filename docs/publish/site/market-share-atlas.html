@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sensai Market Share Atlas</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="kicker">Sensai</p>
+      <h1>UK Market Share Data Atlas</h1>
+      <p class="sub">Structured map of public market-share sources by industry, submarket, and release cadence.</p>
+      <p class="meta">Prepared: March 1, 2026</p>
+      <nav class="topnav">
+        <a href="./index.html">Pitch Pack</a>
+        <a href="./market-share-atlas.html">Market Share Atlas</a>
+        <a href="../uk-market-share-data-atlas.md">Atlas Markdown</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section>
+      <h2>Method</h2>
+      <ul>
+        <li>Industry framework anchored to ONS SIC 2007 and ONS business structure outputs.</li>
+        <li>Priority on direct market-share datasets (provider, product, platform, or geography).</li>
+        <li>Primary-source focus: official statistics, regulators, and market currencies.</li>
+      </ul>
+      <p>
+        Core classification sources:
+        <a href="https://www.ons.gov.uk/methodology/classificationsandstandards/ukstandardindustrialclassificationofeconomicactivities/uksic2007" target="_blank" rel="noreferrer">ONS SIC 2007</a>,
+        <a href="https://www.ons.gov.uk/businessindustryandtrade/business/activitysizeandlocation/methodologies/ukbusinessactivitysizeandlocationmethodology" target="_blank" rel="noreferrer">ONS broad industry groups</a>.
+      </p>
+    </section>
+
+    <section>
+      <h2>High-Value Segment Map</h2>
+      <div class="grid">
+        <article>
+          <h3>Healthcare</h3>
+          <p>Provider/consultant/procedure and geographic share using PHIN.</p>
+        </article>
+        <article>
+          <h3>Financial Services</h3>
+          <p>Mortgage/product market structure with BoE and FCA datasets.</p>
+        </article>
+        <article>
+          <h3>Energy & Utilities</h3>
+          <p>Supplier share, switching, complaints, and concentration context.</p>
+        </article>
+        <article>
+          <h3>Telecoms & Digital</h3>
+          <p>Coverage/take-up shares plus platform usage and audience distribution.</p>
+        </article>
+        <article>
+          <h3>Transport</h3>
+          <p>Airport/airline/rail station and route-level demand shares.</p>
+        </article>
+        <article>
+          <h3>Retail & Media</h3>
+          <p>Online retail share, grocery shares, audience and adspend shares.</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Public Market-Share Sources (Selected)</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Segment</th>
+            <th>Source</th>
+            <th>What It Reports</th>
+            <th>Release Cadence</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Private healthcare</td>
+            <td><a href="https://www.phin.org.uk/data/help-with-understanding-and-using-our-healthcare-data" target="_blank" rel="noreferrer">PHIN</a></td>
+            <td>Consultant/hospital/procedure measures, quality and activity, geography-enabled analysis.</td>
+            <td>Quarterly updates (12-month rolling period).</td>
+          </tr>
+          <tr>
+            <td>Retail banking products</td>
+            <td><a href="https://beta.bankofengland.co.uk/statistics/Tables" target="_blank" rel="noreferrer">BoE Bankstats</a></td>
+            <td>Lending/deposit product structure and market-level aggregates.</td>
+            <td>Monthly.</td>
+          </tr>
+          <tr>
+            <td>Mortgage market</td>
+            <td><a href="https://www.fca.org.uk/data/mortgage-lending-statistics" target="_blank" rel="noreferrer">FCA Mortgage Lending Statistics</a></td>
+            <td>Gross advances, commitments, balances, LTV and affordability distributions.</td>
+            <td>Quarterly.</td>
+          </tr>
+          <tr>
+            <td>Mortgage geography</td>
+            <td><a href="https://www.fca.org.uk/data/product-sales-data/mortgage-product-sales-data-geographic-area" target="_blank" rel="noreferrer">FCA Mortgage PSD Geography</a></td>
+            <td>Regional/national mortgage product sales and characteristics.</td>
+            <td>Quarterly and monthly dashboard extracts.</td>
+          </tr>
+          <tr>
+            <td>Domestic energy suppliers</td>
+            <td><a href="https://www.ofgem.gov.uk/retail-market-indicators" target="_blank" rel="noreferrer">Ofgem Retail Market Indicators</a></td>
+            <td>Supplier market indicators and retail structure context.</td>
+            <td>Monthly highlight cycle.</td>
+          </tr>
+          <tr>
+            <td>Telecom market structure</td>
+            <td><a href="https://www.ofcom.org.uk/phones-and-broadband/service-quality/the-communications-market-2025" target="_blank" rel="noreferrer">Ofcom Communications Market</a></td>
+            <td>Sector-wide communication market indicators and downloadable data.</td>
+            <td>Annual.</td>
+          </tr>
+          <tr>
+            <td>Coverage and take-up (geo)</td>
+            <td><a href="https://www.ofcom.org.uk/phones-and-broadband/coverage-and-speeds/connected-nations-20252" target="_blank" rel="noreferrer">Ofcom Connected Nations</a></td>
+            <td>Broadband/mobile coverage and take-up by locality.</td>
+            <td>Annual plus interim updates.</td>
+          </tr>
+          <tr>
+            <td>Online platform usage</td>
+            <td><a href="https://www.ofcom.org.uk/media-use-and-attitudes/online-habits/online-nation" target="_blank" rel="noreferrer">Ofcom Online Nation</a></td>
+            <td>Platform/service usage and behaviour in UK digital markets.</td>
+            <td>Annual.</td>
+          </tr>
+          <tr>
+            <td>Aviation market share</td>
+            <td><a href="https://www.caa.co.uk/data-and-analysis/uk-aviation-market/airports/uk-airport-data/" target="_blank" rel="noreferrer">CAA UK Airport Data</a></td>
+            <td>Passenger and traffic data by airport and route contexts.</td>
+            <td>Monthly and annual.</td>
+          </tr>
+          <tr>
+            <td>Rail usage share</td>
+            <td><a href="https://dataportal.orr.gov.uk/statistics/usage/passenger-rail-usage/" target="_blank" rel="noreferrer">ORR Passenger Rail Usage</a></td>
+            <td>Journeys/revenue/passenger-km by rail market slices.</td>
+            <td>Quarterly.</td>
+          </tr>
+          <tr>
+            <td>Station-level geo share</td>
+            <td><a href="https://dataportal.orr.gov.uk/statistics/usage/estimates-of-station-usage/" target="_blank" rel="noreferrer">ORR Station Usage</a></td>
+            <td>Entries/exits/interchanges by station, enabling local share analysis.</td>
+            <td>Annual.</td>
+          </tr>
+          <tr>
+            <td>Retail online share</td>
+            <td><a href="https://www.ons.gov.uk/businessindustryandtrade/retailindustry/timeseries/j4mc" target="_blank" rel="noreferrer">ONS Internet Sales Share</a></td>
+            <td>Internet sales as % of total retail sales.</td>
+            <td>Monthly.</td>
+          </tr>
+          <tr>
+            <td>Grocery market share</td>
+            <td><a href="https://www.kantar.com/uki/Campaigns/Grocery-Market-Share" target="_blank" rel="noreferrer">Kantar Grocery Market Share</a></td>
+            <td>Retailer share by value and inflation context.</td>
+            <td>Rolling periodic updates (typically ~4-week cycle).</td>
+          </tr>
+          <tr>
+            <td>Audience share (TV/streaming)</td>
+            <td><a href="https://www.barb.co.uk/monthly-viewing-summary/" target="_blank" rel="noreferrer">BARB</a></td>
+            <td>Viewing shares and reach across broadcasters/platforms.</td>
+            <td>Monthly summary and weekly reports.</td>
+          </tr>
+          <tr>
+            <td>Radio audience share</td>
+            <td><a href="https://www.rajar.co.uk/" target="_blank" rel="noreferrer">RAJAR</a></td>
+            <td>Station/network audience metrics and market share context.</td>
+            <td>Quarterly.</td>
+          </tr>
+          <tr>
+            <td>Digital market share proxy</td>
+            <td><a href="https://gs.statcounter.com/browser-market-share/all/united-kingdom" target="_blank" rel="noreferrer">Statcounter UK</a></td>
+            <td>Browser/OS/search platform shares over time.</td>
+            <td>Monthly rolling updates.</td>
+          </tr>
+          <tr>
+            <td>Digital ad share</td>
+            <td><a href="https://www.iabuk.com/adspend" target="_blank" rel="noreferrer">IAB UK Adspend</a></td>
+            <td>Digital advertising spend split by format/channel.</td>
+            <td>Annual + half-year updates.</td>
+          </tr>
+          <tr>
+            <td>Industry/regulatory monitoring</td>
+            <td><a href="https://feedly.com/market-intelligence/pricing" target="_blank" rel="noreferrer">Feedly Market Intelligence</a></td>
+            <td>Structured monitoring for regulatory/competitor signals.</td>
+            <td>Continuous product data, pricing pages updated periodically.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Priority Build Recommendations</h2>
+      <ol>
+        <li>Launch with six rich-data verticals: private healthcare, mortgages, energy, telecoms/digital, transport, grocery.</li>
+        <li>Standardise schema fields: market, submarket, entity, geography, period, value, share, source URL, release date.</li>
+        <li>Automate by cadence class: monthly, quarterly, annual pipelines with source-level QA checks.</li>
+        <li>Use PHIN-style granularity as the model for provider/procedure/geographic intelligence products.</li>
+      </ol>
+    </section>
+  </main>
+</body>
+</html>
+
